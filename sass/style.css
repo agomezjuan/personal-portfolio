@@ -21,6 +21,10 @@ img {
   max-width: 100%;
 }
 
+section {
+  padding: 5em 2em;
+}
+
 /* Titulos */
 h1,
 h2,
@@ -55,9 +59,58 @@ h3 {
   font-size: 1.25rem;
 }
 
-.section__subtitle--intro,
-.section__subtitle--about {
+.section__subtitle--intro, .section__subtitle--about {
   background: #73affd;
   font-family: "Source Code Pro", monospace;
+  margin-bottom: 1em;
+}
+
+/* ******************** * * ******************** */
+/* #MEDIA QUERES */
+/* ******************** * * ******************** */
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+  h2 {
+    font-size: 3.75rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+nav {
+  display: none;
+}
+
+/* ******************** * * ******************** */
+/* #HEADER */
+/* ******************** * * ******************** */
+/* ******************** * * ******************** */
+/* #INTRO SECTION */
+/* ******************** * * ******************** */
+.intro {
+  position: relative;
+}
+
+.intro__img {
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px grey;
+}
+
+@media (min-width: 600px) {
+  .intro {
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    grid-column-gap: 1em;
+    grid-template-areas: "img title" "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
+  .intro__img {
+    grid-area: img;
+    min-width: 250px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
