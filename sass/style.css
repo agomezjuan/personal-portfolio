@@ -1,0 +1,63 @@
+/* ******************** * * ******************** */
+/*  #ESTILOS GLOBALES */
+/* ******************** * * ******************** */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #303030;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Titulos */
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+.section__title--intro {
+  font-weight: 300;
+}
+
+.section__title--intro strong {
+  display: block;
+  font-weight: 900;
+}
+
+.section__subtitle {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+  background: #73affd;
+  font-family: "Source Code Pro", monospace;
+}
+/*# sourceMappingURL=style.css.map */

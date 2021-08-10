@@ -1,0 +1,67 @@
+// Variables
+$ff-primary: "Source Sans Pro", sans-serif
+$ff-secondary: "Source Code Pro", monospace
+
+$fw-reg: 300
+$fw-bold: 900
+
+$clr-light: #fff
+$clr-dark: #303030
+$clr-accent: #73affd
+
+$fs-h1: 3rem
+$fs-h2: 2.25rem
+$fs-h3: 1.25rem
+$fs-body: 1rem
+
+/* ******************** * * ******************** */
+/*  #ESTILOS GLOBALES
+/* ******************** * * ******************** */
+
+*,
+*::before,
+*::after
+    box-sizing: border-box
+
+body
+    background: $clr-light
+    color: $clr-dark
+    margin: 0
+    font-family: $ff-primary
+    font-size: $fs-body
+    line-height: 1.6
+
+img
+    display: block
+    max-width: 100%
+
+/* Titulos */ 
+h1,
+h2,
+h3
+    line-height: 1.1
+    margin: 0
+
+h1
+    font-size: $fs-h1
+h2
+    font-size: $fs-h2
+h3
+    font-size: $fs-h3
+
+.section__title
+
+.section__title--intro
+    font-weight: $fw-reg
+    strong
+        display: block
+        font-weight: $fw-bold
+
+.section__subtitle
+    margin: 0
+    font-size: $fs-h3
+
+.section__subtitle--intro,
+.section__subtitle--about
+    background: $clr-accent
+    font-family: $ff-secondary
